@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800");
 
 body {
-  width: 235px;
+  width: 310px;
   min-height: 235px;
   margin: 5px;
   background: #fff;
@@ -9,7 +9,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    width: 235px;
+    width: 310px;
     min-height: 235px;
     margin: 5px;
     background: #000;

@@ -1,4 +1,5 @@
 const portalURL = "https://portal.yonsei.ac.kr/main/";
+const yscecURL = "https://yscec.yonsei.ac.kr/";
 const classURL = "http://ysweb.yonsei.ac.kr:8888/curri120601/curri_new.jsp#top";
 const careerURL = "https://career.yonsei.ac.kr";
 const spaceURL = "https://space.yonsei.ac.kr";
@@ -14,6 +15,7 @@ function openURLInNewTab(url) {
 }
 
 document.getElementById('clickPortal').addEventListener('click', () => { openURLInNewTab(portalURL) }, false);
+document.getElementById('clickYscec').addEventListener('click', () => { openURLInNewTab(yscecURL) }, false);
 document.getElementById('clickClass').addEventListener('click', () => { openURLInNewTab(classURL) }, false);
 document.getElementById('clickCareer').addEventListener('click', () => { openURLInNewTab(careerURL) }, false);
 document.getElementById('clickSpace').addEventListener('click', () => { openURLInNewTab(spaceURL) }, false);
