@@ -15,9 +15,5 @@
     }
   },
   "permissions": [
-    "tabs",
-    "http://*.yonsei.ac.kr/*",
-    "https://*.yonsei.ac.kr/*",
-    "https://github.com/*"
   ]
 }
